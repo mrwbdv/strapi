@@ -6,7 +6,7 @@ module.exports = [
     config: {
       enabled: true,
       header: "*",
-      origin: "https://appsecfest.kz/",
+      origin: "*",
     },
   },
   "strapi::poweredBy",
