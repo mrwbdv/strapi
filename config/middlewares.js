@@ -5,7 +5,7 @@ module.exports = [
     name: "strapi::cors",
     config: {
       enabled: true,
-      origin: ["https://appsecfest.kz", "http://localhost:3000"],
+      origin: "*",
       headers: [
         "Content-Type",
         "Authorization",
