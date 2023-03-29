@@ -7,6 +7,7 @@ module.exports = [
       enabled: true,
       header: "*",
       origin: "*",
+      credentials: false
     },
   },
   "strapi::poweredBy",
